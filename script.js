@@ -44,3 +44,14 @@ function success(element) {
     const p = parent.querySelector('p');
     p.style.visibility = 'hidden';
 }
+
+function SendMail() {
+    var params = {
+        from_name : name.value,
+        email_id : email.value,
+        message : message.value
+    }
+    emailjs.send("service_saw1wws", "template_5wqlkb6", params).then(function (res) {
+        alert("Success " + res.status);
+    })
+}
