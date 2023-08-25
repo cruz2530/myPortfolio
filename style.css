@@ -782,6 +782,11 @@ a {
   letter-spacing: 1px;
 }
 
+.contact__form-field > p {
+  color: Red;
+  visibility: hidden;
+}
+
 /* Code for Modern Browsers */
 /* Code for WebKit, Blink, Edge */
 /* Code for Internet Explorer 10-11 */
