@@ -12,6 +12,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
   <title>RICHARD ADEYEMI</title>
   <meta name="description" content="A PERSONAL WEB PORTFOLIO" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+    emailjs.init("8SJu7x2tZAWHDh0wM");
+   })();
+</script>
 </head>
 
 <body>
@@ -219,7 +225,7 @@
                 class="contact__form-field-input"></textarea>
                 <p>Error message</p>
             </div>
-            <button type="submit" class="contact__form-submit" id="submit">Submit</button>
+            <button type="submit" class="contact__form-submit" id="submit" onclick="SendMail">Submit</button>
           </form>
           <div class="contact__form-visual"></div>
         </div>
