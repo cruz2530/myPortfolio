@@ -754,108 +754,35 @@ a {
 
   .contact__form {
     padding: 3rem;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 .contact__form-field {
   margin-bottom: 3rem;
+  position: relative;
+  text-align: center;
+
 }
 
-.contact__form-field-label {
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  color: #444;
-  letter-spacing: 1px;
-  display: block;
-  margin-bottom: 1rem;
-}
-
-.contact__form-field-input {
-  display: block;
-  padding: 2rem;
-  width: 100%;
-  border: 1px solid rgba(225, 225, 225, 1);
-  font-size: 1.6rem;
-  resize: none;
-  border-radius: 5px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-.contact__form-field > p {
-  color: Red;
-  visibility: hidden;
-}
-
-/* Code for Modern Browsers */
-/* Code for WebKit, Blink, Edge */
-/* Code for Internet Explorer 10-11 */
-/* Code for Microsoft Edge */
-/* Code for Mozilla Firefox 4 to 18 */
-/* Code for Mozilla Firefox 19+ */
-
-
-.contact__form-field-input::placeholder {
-  color: rgb(175, 175, 175);
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-.contact__form-field-input::-webkit-input-placeholder {
-  color: rgb(175, 175, 175);
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-.contact__form-field-input:-ms-input-placeholder {
-  color: rgb(175, 175, 175);
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-.contact__form-field-input::-ms-input-placeholder {
-  color: rgb(175, 175, 175);
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-.contact__form-field-input:-moz-placeholder {
-  opacity: 1;
-  color: rgb(175, 175, 175);
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-.contact__form-field-input::-moz-placeholder {
-  opacity: 1;
-  color: rgb(175, 175, 175);
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-.contact__form-field-input:focus {
-  outline: none;
-}
-
-.contact__form-submit {
-  padding: 2rem;
-  width: 100%;
-  font-size: 1.6rem;
+#submit {
+  background-color: #3498db;
   border: none;
-  letter-spacing: 1px;
-  font-family: inherit;
-  font-weight: 700;
-  background: rgba(var(--themeColor), 1);
-  color: #fff;
-  margin-top: 4rem;
-  display: block;
-  border-radius: 5px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .contact__form-visual {
   background-image: url("/assets/my-photo.jpeg");
   background-position: bottom;
+  height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
